@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+h1 {
+    color: firebrick;
+    font-size: 52px;
+}
+form input {
+    height: 50px;
+}
+form button {
+    height: 50px;
+}
