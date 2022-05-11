@@ -17,7 +17,12 @@ autocomplete.oninput = function () {
 function getResults(input) {
   const results = [];
   for (let i = 0; i < monsters.length; i++) {
-    if (monsters[i].name.toLowerCase().includes(input.toLowerCase())) {
+    if (
+      monsters[i].name.toLowerCase().includes(input.toLowerCase()) || 
+      monsters[i].type.toLowerCase().includes(input.toLowerCase()) || 
+      monsters[i].size.toLowerCase().includes(input.toLowerCase()) || 
+      monsters[i].alignment.toLowerCase().includes(input.toLowerCase())
+    ) {
       results.push(
         `${monsters[i].name}: ${monsters[i].type}, ${monsters[i].hitpoints}hp, ${monsters[i].size}, ${monsters[i].alignment}`
       );
@@ -54,20 +59,20 @@ const newMonster = findNewMonster(monsters);
 function checkType(guessMonster) {
   let output = "";
   if (guessMonster.type === newMonster.type) {
-    output="<td>Correct!</td>";
+    output=`<td>${guessMonster.type} is correct!</td>`;
   } else if(guessMonster.type !== newMonster.type) {
-    output="<td>Incorrect!</td>";
+    output=`<td><s>${guessMonster.type}</s></td>`;
   }
   return output;
 }
 function checkHP(guessMonster) {
   let output = "";
   if (guessMonster.hitpoints === newMonster.hitpoints) {
-    output = "<td>Correct!</td>";
+    output = `<td>${guessMonster.hitpoints} is correct!</td>`;
   } else if (guessMonster.hitpoints > newMonster.hitpoints) {
-    output = "<td>TOO BIG!</td>";
+    output = `<td>${guessMonster.hitpoints} is too high!</td>`;
   } else if (guessMonster.hitpoints < newMonster.hitpoints) {
-    output = "<td>TOO SMALL!</td>";
+    output = `<td>${guessMonster.hitpoints} is too low!</td>`;
   }
 
   return output;
@@ -78,20 +83,20 @@ function checkSize(guessMonster) {
   const guessIndex = sizesArr.indexOf(guessMonster.size)
   const correctIndex=sizesArr.indexOf(newMonster.size)
   if (guessIndex === correctIndex) {
-    output = "<td>Correct!</td>";
+    output = `<td>${guessMonster.size} is correct!</td>`;
   } else if (guessIndex > correctIndex) {
-    output = "<td>TOO BIG!</td>";
+    output = `<td>${guessMonster.size} is too big!</td>`;
   } else if (guessIndex < correctIndex) {
-    output = "<td>TOO SMALL!</td>";
+    output = `<td>${guessMonster.size} is too small!</td>`;
   }
   return output;
 }
 function checkAlignment(guessMonster) {
   let output = "";
   if (guessMonster.alignment === newMonster.alignment) {
-    output = "<td>Correct!</td>";
+    output = `<td>${guessMonster.alignment} is correct!</td>`;
   } else if (guessMonster.alignment !== newMonster.alignment) {
-    output = "<td>Incorrect!</td>";
+    output = `<td><s>${guessMonster.alignment}</s></td>`;
   }
   return output;
 }
