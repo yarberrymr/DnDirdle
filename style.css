@@ -5,10 +5,50 @@ body {
 h1 {
     color: firebrick;
     font-size: 52px;
+    font-family: fantasy, sans-serif;
 }
 form input {
     height: 50px;
 }
 form button {
     height: 50px;
+    width: 100px;
+    font-size: 20px;
+    font-family: fantasy, sans-serif;
+}
+p {
+    color: #fff;
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;
+    display: inline-block;
+    
+}
+h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+hr {
+    width: 200px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+#newGame {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    /*background-color: #FCCA46;*/
+}
+li {
+    color: #fff;
+    list-style: none;
+}
+td {
+    color:#fff;
+    width:10%;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
 }

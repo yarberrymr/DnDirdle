@@ -8,13 +8,42 @@
     <title>DnDirdle</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="script.js"></script>
+    
 </head>
 <body>
-    <h1>DnDirdle</h1>
-    <form>
-        <input id= "monster-guess" type="text" placeholder="Dragon or Dragon?" size="50">
-        <button type="submit" value="submit" onclick="checkGuess()">Guess!</button>
+    <h1>Dungeons and Dirdles</h1>
+    <h2>How to Play</h2>
+    <hr>
+    <p>The monsters that are used in this game come from 
+        part of the DnD 5e SRD.<br> Some monsters in this game
+        are not in the main monster manuals.<br><br>
+        The goal is to guess which random monster has been chosen by the game.<br>
+        You can achieve this by looking at the type, HP, size, and alignment of the<br>
+        monsters you have guessed.<br>
+    </p><br>
+    <p id="guesses"></p>
+    <div class="guess-return">
+        <table>
+            <thead>
+                <td>Name</td>
+                <td>Type</td>
+                <td>Hit Points</td>
+                <td>Size</td>
+                <td>Alignment</td>
+            </thead>
+            <tbody id="guess-body" >
+
+            </tbody>
+        </table>
+    </div>
+    <form id="guessForm" autocomplete="off">
+        <div class="error" id="guess-error" style="display: none; color:#fff">Please enter a guess</div>
+        <input name = "monster-guess" id= "monster-guess" type="text" placeholder="Dragon or Dragon?" size="50">
+        <ul id="results"></ul>
+        <button id="guess-button" type="submit" value="submit" >Guess!</button>
     </form>
+    <br><br><br>
+    <button onClick="window.location.reload();" name="newGame" id="newGame">New Game</button>
+    <script type="module" src="/script.js"></script>
 </body>
 </html>
