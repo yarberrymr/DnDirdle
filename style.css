@@ -43,6 +43,10 @@ hr {
 li {
     color: #fff;
     list-style: none;
+    cursor:pointer;
+}
+li:hover {
+    color:aquamarine;
 }
 td {
     color:#fff;
