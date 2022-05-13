@@ -91,13 +91,6 @@ export const monsters = [
     hitpoints: 184
   },
   {
-    name: 'Adult Flame Dragon',
-    size: 'Huge',
-    alignment: 'chaotic evil',
-    type: 'dragon',
-    hitpoints: 212
-  },
-  {
     name: 'Adult Gold Dragon',
     size: 'Huge',
     alignment: 'lawful good',
@@ -154,32 +147,11 @@ export const monsters = [
     hitpoints: 243
   },
   {
-    name: 'Adult Void Dragon',
-    size: 'Huge',
-    alignment: 'chaotic neutral',
-    type: 'dragon',
-    hitpoints: 229
-  },
-  {
-    name: 'Adult Wasteland Dragon',
-    size: 'Huge',
-    alignment: 'chaotic evil',
-    type: 'dragon',
-    hitpoints: 225
-  },
-  {
     name: 'Adult White Dragon',
     size: 'Huge',
     alignment: 'chaotic evil',
     type: 'dragon',
     hitpoints: 200
-  },
-  {
-    name: 'Adult Wind Dragon',
-    size: 'Huge',
-    alignment: 'chaotic neutral',
-    type: 'dragon',
-    hitpoints: 237
   },
   {
     name: 'Agnibarra',
@@ -208,13 +180,6 @@ export const monsters = [
     alignment: 'neutral',
     type: 'elemental',
     hitpoints: 90
-  },
-  {
-    name: 'Akyishigal, Demon Lord Of Cockroaches',
-    size: 'Large',
-    alignment: 'chaotic evil',
-    type: 'fiend',
-    hitpoints: 138
   },
   {
     name: 'Al-Aeshma Genie',
@@ -336,13 +301,6 @@ export const monsters = [
     hitpoints: 71
   },
   {
-    name: 'Altar Flame Golem',
-    size: 'Large',
-    alignment: 'neutral',
-    type: 'construct',
-    hitpoints: 152
-  },
-  {
     name: 'Ammut',
     size: 'Large',
     alignment: 'neutral',
@@ -390,13 +348,6 @@ export const monsters = [
     alignment: 'chaotic good',
     type: 'dragon',
     hitpoints: 350
-  },
-  {
-    name: 'Ancient Flame Dragon',
-    size: 'Gargantuan',
-    alignment: 'chaotic evil',
-    type: 'dragon',
-    hitpoints: 481
   },
   {
     name: 'Ancient Gold Dragon',
@@ -462,32 +413,11 @@ export const monsters = [
     hitpoints: 198
   },
   {
-    name: 'Ancient Void Dragon',
-    size: 'Gargantuan',
-    alignment: 'chaotic neutral',
-    type: 'dragon',
-    hitpoints: 448
-  },
-  {
-    name: 'Ancient Wasteland Dragon',
-    size: 'Gargantuan',
-    alignment: 'chaotic evil',
-    type: 'dragon',
-    hitpoints: 333
-  },
-  {
     name: 'Ancient White Dragon',
     size: 'Gargantuan',
     alignment: 'chaotic evil',
     type: 'dragon',
     hitpoints: 333
-  },
-  {
-    name: 'Ancient Wind Dragon',
-    size: 'Gargantuan',
-    alignment: 'chaotic neutral',
-    type: 'dragon',
-    hitpoints: 425
   },
   {
     name: 'Andrenjinyi',
@@ -616,13 +546,6 @@ export const monsters = [
     hitpoints: 60
   },
   {
-    name: 'Archaeopteryx',
-    size: 'Tiny',
-    alignment: 'unaligned',
-    type: 'beast',
-    hitpoints: 7
-  },
-  {
     name: 'Archmage',
     size: 'Medium',
     alignment: 'any alignment',
@@ -742,27 +665,6 @@ export const monsters = [
     hitpoints: 7
   },
   {
-    name: "Baba Yaga's Horsemen, Black Night",
-    size: 'Medium',
-    alignment: 'lawful neutral',
-    type: 'fey',
-    hitpoints: 171
-  },
-  {
-    name: "Baba Yaga's Horsemen, Bright Day",
-    size: 'Medium',
-    alignment: 'lawful neutral',
-    type: 'fey',
-    hitpoints: 171
-  },
-  {
-    name: "Baba Yaga's Horsemen, Red Sun",
-    size: 'Medium',
-    alignment: 'lawful neutral',
-    type: 'fey',
-    hitpoints: 171
-  },
-  {
     name: 'Baboon',
     size: 'Small',
     alignment: 'unaligned',
@@ -812,13 +714,6 @@ export const monsters = [
     hitpoints: 91
   },
   {
-    name: 'Bar Brawl',
-    size: 'Huge',
-    alignment: 'unaligned',
-    type: 'humanoids',
-    hitpoints: 67
-  },
-  {
     name: 'Barbed Devil',
     size: 'Medium',
     alignment: 'lawful evil',
@@ -838,13 +733,6 @@ export const monsters = [
     alignment: 'unaligned',
     type: 'monstrosity',
     hitpoints: 52
-  },
-  {
-    name: 'Bastet Temple Cat',
-    size: 'Small',
-    alignment: 'chaotic neutral',
-    type: 'monstrosity',
-    hitpoints: 40
   },
   {
     name: 'Bat',
@@ -887,13 +775,6 @@ export const monsters = [
     alignment: 'chaotic good',
     type: 'humanoid',
     hitpoints: 130
-  },
-  {
-    name: 'Bearmit Crab',
-    size: 'Large',
-    alignment: 'unaligned',
-    type: 'monstrosity',
-    hitpoints: 59
   },
   {
     name: 'Beggar Ghoul',
@@ -1050,13 +931,6 @@ export const monsters = [
     hitpoints: 51
   },
   {
-    name: 'Bloody Bones',
-    size: 'Medium',
-    alignment: 'chaotic evil',
-    type: 'monstrosity',
-    hitpoints: 55
-  },
-  {
     name: 'Blue Dragon Wyrmling',
     size: 'Medium',
     alignment: 'lawful evil',
@@ -1125,13 +999,6 @@ export const monsters = [
     alignment: 'unaligned',
     type: 'construct',
     hitpoints: 5
-  },
-  {
-    name: 'Boot Grabber',
-    size: 'Small',
-    alignment: 'neutral',
-    type: 'aberration',
-    hitpoints: 22
   },
   {
     name: 'Bouda',
@@ -1232,13 +1099,6 @@ export const monsters = [
     hitpoints: 138
   },
   {
-    name: 'Camazotz, Demon Lord Of Bats And Fire',
-    size: 'Large',
-    alignment: 'chaotic evil',
-    type: 'fiend',
-    hitpoints: 537
-  },
-  {
     name: 'Cambium',
     size: 'Large',
     alignment: 'neutral evil',
@@ -1272,13 +1132,6 @@ export const monsters = [
     alignment: 'unaligned',
     type: 'beast',
     hitpoints: 2
-  },
-  {
-    name: 'Cats of Ulthar',
-    size: 'Huge',
-    alignment: 'unaligned',
-    type: 'beasts',
-    hitpoints: 55
   },
   {
     name: 'Cauldronborn',
@@ -1349,20 +1202,6 @@ export const monsters = [
     alignment: 'neutral',
     type: 'fey',
     hitpoints: 32
-  },
-  {
-    name: 'Child Of The Briar',
-    size: 'Tiny',
-    alignment: 'neutral evil',
-    type: 'plant',
-    hitpoints: 50
-  },
-  {
-    name: 'Child of Yggdrasil',
-    size: 'Large',
-    alignment: 'neutral evil',
-    type: 'aberration',
-    hitpoints: 112
   },
   {
     name: 'Chimera',
@@ -1645,34 +1484,6 @@ export const monsters = [
     hitpoints: 102
   },
   {
-    name: 'Cueyatl',
-    size: 'Small',
-    alignment: 'lawful evil',
-    type: 'humanoid',
-    hitpoints: 21
-  },
-  {
-    name: 'Cueyatl Moon Priest',
-    size: 'Small',
-    alignment: 'lawful evil',
-    type: 'humanoid',
-    hitpoints: 81
-  },
-  {
-    name: 'Cueyatl Sea Priest',
-    size: 'Small',
-    alignment: 'lawful evil',
-    type: 'humanoid',
-    hitpoints: 45
-  },
-  {
-    name: 'Cueyatl Warrior',
-    size: 'Small',
-    alignment: 'lawful evil',
-    type: 'humanoid',
-    hitpoints: 36
-  },
-  {
     name: 'Cult Fanatic',
     size: 'Medium',
     alignment: 'any non-good alignment',
@@ -1685,20 +1496,6 @@ export const monsters = [
     alignment: 'any non-good alignment',
     type: 'humanoid',
     hitpoints: 9
-  },
-  {
-    name: 'Darakhul High Priestess',
-    size: 'Medium',
-    alignment: 'neutral evil',
-    type: 'undead',
-    hitpoints: 112
-  },
-  {
-    name: 'Darakhul Shadowmancer',
-    size: 'Medium',
-    alignment: 'neutral evil',
-    type: 'undead',
-    hitpoints: 52
   },
   {
     name: 'Dark Eye',
@@ -2170,13 +1967,6 @@ export const monsters = [
     hitpoints: 126
   },
   {
-    name: 'Eater Of Dust (Yakat-Shi)',
-    size: 'Medium',
-    alignment: 'neutral evil',
-    type: 'aberration',
-    hitpoints: 114
-  },
-  {
     name: 'Echo',
     size: 'Medium',
     alignment: 'chaotic evil',
@@ -2303,20 +2093,6 @@ export const monsters = [
     hitpoints: 54
   },
   {
-    name: 'Emerald Order Cult Leader',
-    size: 'Medium',
-    alignment: 'lawful neutral or evil',
-    type: 'Humanoid (any race)',
-    hitpoints: 117
-  },
-  {
-    name: 'Emperor Of The Ghouls',
-    size: 'Medium',
-    alignment: 'neutral evil',
-    type: 'undead',
-    hitpoints: 204
-  },
-  {
     name: 'Empty Cloak',
     size: 'Medium',
     alignment: 'unaligned',
@@ -2392,13 +2168,6 @@ export const monsters = [
     alignment: 'unaligned',
     type: 'construct',
     hitpoints: 157
-  },
-  {
-    name: 'Eye of the Gods',
-    size: 'Small',
-    alignment: 'any alignment (as its creator deity)',
-    type: 'celestial',
-    hitpoints: 36
   },
   {
     name: 'Fang of the Great Wolf',
@@ -2534,13 +2303,6 @@ export const monsters = [
     hitpoints: 110
   },
   {
-    name: 'Flame Dragon Wyrmling',
-    size: 'Medium',
-    alignment: 'chaotic evil',
-    type: 'dragon',
-    hitpoints: 52
-  },
-  {
     name: 'Flame Eater Swarm',
     size: 'Medium',
     alignment: 'unaligned',
@@ -2602,13 +2364,6 @@ export const monsters = [
     alignment: 'unaligned',
     type: 'construct',
     hitpoints: 17
-  },
-  {
-    name: 'Folk Of Leng',
-    size: 'Medium',
-    alignment: 'neutral evil',
-    type: 'humanoid',
-    hitpoints: 68
   },
   {
     name: 'Forest Drake',
@@ -2681,13 +2436,6 @@ export const monsters = [
     hitpoints: 67
   },
   {
-    name: 'Fulad-Zereh',
-    size: 'Huge',
-    alignment: 'chaotic evil',
-    type: 'fiend',
-    hitpoints: 115
-  },
-  {
     name: 'Fulminar',
     size: 'Large',
     alignment: 'neutral',
@@ -2700,13 +2448,6 @@ export const monsters = [
     alignment: 'chaotic evil',
     type: 'undead',
     hitpoints: 75
-  },
-  {
-    name: 'Gargoctopus',
-    size: 'Large',
-    alignment: 'neutral',
-    type: 'monstrosity',
-    hitpoints: 104
   },
   {
     name: 'Gargoyle',
@@ -2756,13 +2497,6 @@ export const monsters = [
     alignment: 'chaotic evil',
     type: 'undead',
     hitpoints: 36
-  },
-  {
-    name: 'Ghast of Leng',
-    size: 'Large',
-    alignment: 'neutral evil',
-    type: 'aberration',
-    hitpoints: 127
   },
   {
     name: 'Ghost',
@@ -3122,13 +2856,6 @@ export const monsters = [
     hitpoints: 112
   },
   {
-    name: 'Glass Gator',
-    size: 'Large',
-    alignment: 'unaligned',
-    type: 'beast',
-    hitpoints: 45
-  },
-  {
     name: 'Glass Golem',
     size: 'Small',
     alignment: 'unaligned',
@@ -3290,13 +3017,6 @@ export const monsters = [
     hitpoints: 82
   },
   {
-    name: 'Green Knight of the Woods',
-    size: 'Medium',
-    alignment: 'lawful neutral',
-    type: 'fey',
-    hitpoints: 78
-  },
-  {
     name: 'Grick',
     size: 'Medium',
     alignment: 'neutral',
@@ -3337,13 +3057,6 @@ export const monsters = [
     alignment: 'any alignment',
     type: 'humanoid',
     hitpoints: 11
-  },
-  {
-    name: 'Guardian Naga',
-    size: 'Large',
-    alignment: 'lawful good',
-    type: 'monstrosity',
-    hitpoints: 127
   },
   {
     name: 'Gug',
@@ -3393,20 +3106,6 @@ export const monsters = [
     alignment: 'unaligned',
     type: 'construct',
     hitpoints: 13
-  },
-  {
-    name: 'Half-Red Dragon Veteran',
-    size: 'Medium',
-    alignment: 'any alignment',
-    type: 'humanoid',
-    hitpoints: 65
-  },
-  {
-    name: 'Hallowed Reed',
-    size: 'Medium',
-    alignment: 'neutral good',
-    type: 'celestial',
-    hitpoints: 22
   },
   {
     name: 'Harpy',
@@ -3535,27 +3234,6 @@ export const monsters = [
     hitpoints: 210
   },
   {
-    name: 'Hound Of The Night',
-    size: 'Large',
-    alignment: 'unaligned',
-    type: 'monstrosity',
-    hitpoints: 112
-  },
-  {
-    name: 'Hound of Tindalos',
-    size: 'Medium',
-    alignment: 'neutral evil',
-    type: 'aberration',
-    hitpoints: 93
-  },
-  {
-    name: 'Hraesvelgr The Corpse Swallower',
-    size: 'Huge',
-    alignment: 'titan), neutral',
-    type: 'giant',
-    hitpoints: 241
-  },
-  {
     name: 'Hulking Whelp',
     size: 'Small',
     alignment: 'chaotic neutral',
@@ -3589,13 +3267,6 @@ export const monsters = [
     alignment: 'unaligned',
     type: 'beast',
     hitpoints: 5
-  },
-  {
-    name: "Ia'affrat",
-    size: 'Large',
-    alignment: 'lawful evil',
-    type: 'swarm of Tiny elementals',
-    hitpoints: 170
   },
   {
     name: 'Ice Devil',
@@ -3645,13 +3316,6 @@ export const monsters = [
     alignment: 'lawful evil',
     type: 'fiend',
     hitpoints: 10
-  },
-  {
-    name: 'Imy-Ut Ushabti',
-    size: 'Medium',
-    alignment: 'neutral',
-    type: 'monstrosity',
-    hitpoints: 97
   },
   {
     name: 'Incinis',
@@ -3715,20 +3379,6 @@ export const monsters = [
     alignment: 'chaotic neutral',
     type: 'monstrosity',
     hitpoints: 222
-  },
-  {
-    name: "J'ba Fofi Spider",
-    size: 'Large',
-    alignment: 'unaligned',
-    type: 'beast',
-    hitpoints: 75
-  },
-  {
-    name: 'Jaanavar Jal',
-    size: 'Huge',
-    alignment: 'unaligned',
-    type: 'monstrosity',
-    hitpoints: 172
   },
   {
     name: 'Jackal',
@@ -3864,13 +3514,6 @@ export const monsters = [
     hitpoints: 52
   },
   {
-    name: 'Knight of the Road',
-    size: 'Medium',
-    alignment: 'lawful evil',
-    type: 'humanoid',
-    hitpoints: 117
-  },
-  {
     name: 'Kobold',
     size: 'Small',
     alignment: 'lawful evil',
@@ -3904,13 +3547,6 @@ export const monsters = [
     alignment: 'unaligned',
     type: 'beast',
     hitpoints: 112
-  },
-  {
-    name: 'Koralk (Harvester Devil)',
-    size: 'Large',
-    alignment: 'lawful evil',
-    type: 'fiend',
-    hitpoints: 136
   },
   {
     name: 'Korrigan',
@@ -3976,13 +3612,6 @@ export const monsters = [
     hitpoints: 119
   },
   {
-    name: 'Lady in White',
-    size: 'Medium',
-    alignment: 'any alignment',
-    type: 'undead',
-    hitpoints: 49
-  },
-  {
     name: 'Laestrigonian Giant',
     size: 'Large',
     alignment: 'chaotic evil',
@@ -4023,20 +3652,6 @@ export const monsters = [
     alignment: 'lawful evil',
     type: 'fiend',
     hitpoints: 13
-  },
-  {
-    name: 'Lemurfolk',
-    size: 'Small',
-    alignment: 'neutral',
-    type: 'humanoid',
-    hitpoints: 14
-  },
-  {
-    name: 'Lemurfolk Greyfur',
-    size: 'Small',
-    alignment: 'neutral',
-    type: 'humanoid',
-    hitpoints: 67
   },
   {
     name: 'Leonino',
@@ -4130,13 +3745,6 @@ export const monsters = [
     hitpoints: 18
   },
   {
-    name: 'Living Star',
-    size: 'Huge',
-    alignment: 'any alignment',
-    type: 'celestial',
-    hitpoints: 207
-  },
-  {
     name: 'Living Wick',
     size: 'Small',
     alignment: 'unaligned',
@@ -4191,13 +3799,6 @@ export const monsters = [
     alignment: 'unaligned',
     type: 'construct',
     hitpoints: 82
-  },
-  {
-    name: 'Lou Carcolh',
-    size: 'Medium',
-    alignment: 'unaligned',
-    type: 'monstrosity',
-    hitpoints: 78
   },
   {
     name: 'Loxoda',
@@ -4260,13 +3861,6 @@ export const monsters = [
     size: 'Medium',
     alignment: 'lawful neutral',
     type: 'undead',
-    hitpoints: 120
-  },
-  {
-    name: 'Malphas (Storm Crow)',
-    size: 'Medium',
-    alignment: 'neutral evil',
-    type: 'fey',
     hitpoints: 120
   },
   {
@@ -4354,13 +3948,6 @@ export const monsters = [
     hitpoints: 5
   },
   {
-    name: 'Matriarch Serpentine Lamia',
-    size: 'Large',
-    alignment: 'neutral evil',
-    type: 'monstrosity',
-    hitpoints: 90
-  },
-  {
     name: 'Mavka',
     size: 'Medium',
     alignment: 'chaotic evil',
@@ -4373,13 +3960,6 @@ export const monsters = [
     alignment: 'unaligned',
     type: 'beast',
     hitpoints: 95
-  },
-  {
-    name: 'Mechuiti, Demon Lord Of Apes',
-    size: 'Gargantuan',
-    alignment: 'chaotic evil',
-    type: 'fiend',
-    hitpoints: 370
   },
   {
     name: 'Medusa',
@@ -4492,13 +4072,6 @@ export const monsters = [
     alignment: 'neutral evil',
     type: 'undead',
     hitpoints: 142
-  },
-  {
-    name: 'Monkey King',
-    size: 'Medium',
-    alignment: 'neutral',
-    type: 'celestial',
-    hitpoints: 262
   },
   {
     name: 'Monolith Champion',
@@ -4746,20 +4319,6 @@ export const monsters = [
     hitpoints: 11
   },
   {
-    name: 'Nkosi Pridelord',
-    size: 'Medium',
-    alignment: 'nkosi), lawful neutral',
-    type: 'humanoid (shapechanger',
-    hitpoints: 93
-  },
-  {
-    name: 'Nkosi War Ostrich',
-    size: 'Large',
-    alignment: 'unaligned',
-    type: 'beast',
-    hitpoints: 42
-  },
-  {
     name: 'Noble',
     size: 'Medium',
     alignment: 'any alignment',
@@ -4809,13 +4368,6 @@ export const monsters = [
     hitpoints: 59
   },
   {
-    name: 'Ogre Chieftain, Corrupted',
-    size: 'Large',
-    alignment: 'chaotic evil',
-    type: 'giant',
-    hitpoints: 127
-  },
-  {
     name: 'Ogre Zombie',
     size: 'Large',
     alignment: 'neutral evil',
@@ -4828,13 +4380,6 @@ export const monsters = [
     alignment: 'unaligned',
     type: 'beast',
     hitpoints: 148
-  },
-  {
-    name: 'One-Headed Clockwork Dragon',
-    size: 'Large',
-    alignment: 'unaligned',
-    type: 'construct',
-    hitpoints: 178
   },
   {
     name: 'Oni',
@@ -5047,13 +4592,6 @@ export const monsters = [
     hitpoints: 144
   },
   {
-    name: 'Pillar of the Lost Magocracy',
-    size: 'Huge',
-    alignment: 'chaotic neutral',
-    type: 'construct',
-    hitpoints: 90
-  },
-  {
     name: 'Pishacha',
     size: 'Medium',
     alignment: 'chaotic evil',
@@ -5187,32 +4725,11 @@ export const monsters = [
     hitpoints: 44
   },
   {
-    name: 'Qorgeth, Demon Lord Of The Devouring Worm',
-    size: 'Gargantuan',
-    alignment: 'chaotic evil',
-    type: 'fiend',
-    hitpoints: 370
-  },
-  {
     name: 'Quasit',
     size: 'Tiny',
     alignment: 'chaotic evil',
     type: 'fiend',
     hitpoints: 7
-  },
-  {
-    name: 'Queen Of Night And Magic',
-    size: 'Medium',
-    alignment: 'neutral evil',
-    type: 'fey',
-    hitpoints: 180
-  },
-  {
-    name: 'Queen Of Witches',
-    size: 'Large',
-    alignment: 'neutral',
-    type: 'fey',
-    hitpoints: 123
   },
   {
     name: 'Quickstep',
@@ -5262,13 +4779,6 @@ export const monsters = [
     alignment: 'neutral',
     type: 'humanoid',
     hitpoints: 27
-  },
-  {
-    name: 'Ramag Portal Master',
-    size: 'Medium',
-    alignment: 'neutral',
-    type: 'humanoid',
-    hitpoints: 71
   },
   {
     name: 'Rat',
@@ -5346,27 +4856,6 @@ export const monsters = [
     alignment: 'unaligned',
     type: 'plant',
     hitpoints: 126
-  },
-  {
-    name: 'Ravenfolk Doom Croaker',
-    size: 'Medium',
-    alignment: 'neutral',
-    type: 'humanoid',
-    hitpoints: 88
-  },
-  {
-    name: 'Ravenfolk Scout',
-    size: 'Medium',
-    alignment: 'neutral',
-    type: 'humanoid',
-    hitpoints: 21
-  },
-  {
-    name: 'Ravenfolk Warrior',
-    size: 'Medium',
-    alignment: 'neutral',
-    type: 'humanoid',
-    hitpoints: 78
   },
   {
     name: 'Razorleaf',
@@ -5747,20 +5236,6 @@ export const monsters = [
     hitpoints: 76
   },
   {
-    name: 'Sentinel in Darkness',
-    size: 'Large',
-    alignment: 'unaligned',
-    type: 'construct',
-    hitpoints: 127
-  },
-  {
-    name: 'Serpentfolk of Yig',
-    size: 'Medium',
-    alignment: 'neutral evil',
-    type: 'humanoid',
-    hitpoints: 40
-  },
-  {
     name: 'Serpentine Lamia',
     size: 'Medium',
     alignment: 'neutral evil',
@@ -5773,20 +5248,6 @@ export const monsters = [
     alignment: 'unaligned',
     type: 'beast',
     hitpoints: 85
-  },
-  {
-    name: 'Servant of Yig',
-    size: 'Medium',
-    alignment: 'neutral evil',
-    type: 'aberration',
-    hitpoints: 90
-  },
-  {
-    name: 'Servant of the Vine',
-    size: 'Medium',
-    alignment: 'chaotic neutral',
-    type: 'humanoid',
-    hitpoints: 72
   },
   {
     name: 'Shabti',
@@ -6097,27 +5558,6 @@ export const monsters = [
     hitpoints: 123
   },
   {
-    name: 'Solar',
-    size: 'Large',
-    alignment: 'lawful good',
-    type: 'celestial',
-    hitpoints: 243
-  },
-  {
-    name: 'Son Of Fenris',
-    size: 'Huge',
-    alignment: 'chaotic evil',
-    type: 'monstrosity',
-    hitpoints: 175
-  },
-  {
-    name: 'Song Angel',
-    size: 'Large',
-    alignment: 'lawful good',
-    type: 'celestial',
-    hitpoints: 76
-  },
-  {
     name: 'Sootwing',
     size: 'Small',
     alignment: 'unaligned',
@@ -6349,13 +5789,6 @@ export const monsters = [
     hitpoints: 190
   },
   {
-    name: 'Stygian Fat-Tailed Scorpion',
-    size: 'Tiny',
-    alignment: 'unaligned',
-    type: 'beast',
-    hitpoints: 10
-  },
-  {
     name: 'Subek',
     size: 'Large',
     alignment: 'lawful neutral',
@@ -6503,41 +5936,6 @@ export const monsters = [
     hitpoints: 65
   },
   {
-    name: 'The Barbed',
-    size: 'Small',
-    alignment: 'lawful evil',
-    type: 'humanoid',
-    hitpoints: 44
-  },
-  {
-    name: 'Thorned Sulfurlord',
-    size: 'Huge',
-    alignment: 'chaotic evil',
-    type: 'fiend',
-    hitpoints: 171
-  },
-  {
-    name: 'Thread-Bound Constrictor Snake',
-    size: 'Huge',
-    alignment: 'unaligned',
-    type: 'construct',
-    hitpoints: 60
-  },
-  {
-    name: 'Three-Headed Clockwork Dragon',
-    size: 'Huge',
-    alignment: 'unaligned',
-    type: 'construct',
-    hitpoints: 275
-  },
-  {
-    name: 'Three-Headed Cobra',
-    size: 'Large',
-    alignment: 'unaligned',
-    type: 'monstrosity',
-    hitpoints: 127
-  },
-  {
     name: 'Thuellai',
     size: 'Huge',
     alignment: 'chaotic neutral',
@@ -6585,41 +5983,6 @@ export const monsters = [
     alignment: 'lawful evil',
     type: 'monstrosity',
     hitpoints: 22
-  },
-  {
-    name: 'Tosculi Elite Bow Raider',
-    size: 'Medium',
-    alignment: 'lawful evil',
-    type: 'humanoid',
-    hitpoints: 97
-  },
-  {
-    name: 'Tosculi Hive-Queen',
-    size: 'Large',
-    alignment: 'lawful evil',
-    type: 'monstrosity',
-    hitpoints: 157
-  },
-  {
-    name: 'Tosculi Jeweled Drone',
-    size: 'Small',
-    alignment: 'lawful evil',
-    type: 'humanoid',
-    hitpoints: 90
-  },
-  {
-    name: 'Tosculi Warrior',
-    size: 'Small',
-    alignment: 'lawful evil',
-    type: 'monstrosity',
-    hitpoints: 58
-  },
-  {
-    name: 'Totivillus, Scribe Of Hell',
-    size: 'Medium',
-    alignment: 'lawful evil',
-    type: 'fiend',
-    hitpoints: 299
   },
   {
     name: 'Treacle',
@@ -6755,13 +6118,6 @@ export const monsters = [
     hitpoints: 40
   },
   {
-    name: 'Urochar (Strangling Watcher)',
-    size: 'Huge',
-    alignment: 'chaotic evil',
-    type: 'aberration',
-    hitpoints: 256
-  },
-  {
     name: 'Ursa Polaris',
     size: 'Large',
     alignment: 'neutral evil',
@@ -6818,13 +6174,6 @@ export const monsters = [
     hitpoints: 82
   },
   {
-    name: 'Vampire Warlock - Variant',
-    size: 'Medium',
-    alignment: 'lawful evil',
-    type: 'undead',
-    hitpoints: 144
-  },
-  {
     name: 'Vampiric Knight',
     size: 'Medium',
     alignment: 'neutral evil',
@@ -6837,13 +6186,6 @@ export const monsters = [
     alignment: 'neutral good',
     type: 'humanoid',
     hitpoints: 55
-  },
-  {
-    name: 'Vapor Lynx',
-    size: 'Large',
-    alignment: 'chaotic neutral',
-    type: 'monstrosity',
-    hitpoints: 127
   },
   {
     name: 'Vellso',
@@ -6909,13 +6251,6 @@ export const monsters = [
     hitpoints: 105
   },
   {
-    name: "Vine Lord's Tendril Puppet",
-    size: 'Medium',
-    alignment: 'lawful neutral',
-    type: 'plant',
-    hitpoints: 34
-  },
-  {
     name: 'Vine Troll Skeleton',
     size: 'Large',
     alignment: 'unaligned',
@@ -6937,20 +6272,6 @@ export const monsters = [
     hitpoints: 18
   },
   {
-    name: 'Void Dragon Wyrmling',
-    size: 'Medium',
-    alignment: 'chaotic neutral',
-    type: 'dragon',
-    hitpoints: 45
-  },
-  {
-    name: 'Void Giant',
-    size: 'Huge',
-    alignment: 'chaotic neutral',
-    type: 'giant',
-    hitpoints: 210
-  },
-  {
     name: 'Voidling',
     size: 'Large',
     alignment: 'chaotic evil',
@@ -6970,13 +6291,6 @@ export const monsters = [
     alignment: 'unaligned',
     type: 'beast',
     hitpoints: 5
-  },
-  {
-    name: 'Wampus Cat',
-    size: 'Medium',
-    alignment: 'chaotic neutral',
-    type: 'monstrosity',
-    hitpoints: 58
   },
   {
     name: 'War Machine Golem',
@@ -7005,20 +6319,6 @@ export const monsters = [
     alignment: 'lawful evil',
     type: 'undead',
     hitpoints: 22
-  },
-  {
-    name: "Warlock's Trumpetbloom",
-    size: 'Large',
-    alignment: 'neutral evil',
-    type: 'plant',
-    hitpoints: 152
-  },
-  {
-    name: 'Wasteland Dragon Wyrmling',
-    size: 'Medium',
-    alignment: 'chaotic evil',
-    type: 'dragon',
-    hitpoints: 60
   },
   {
     name: 'Water Elemental',
@@ -7126,20 +6426,6 @@ export const monsters = [
     hitpoints: 58
   },
   {
-    name: 'Wharfling',
-    size: 'Tiny',
-    alignment: 'unaligned',
-    type: 'beast',
-    hitpoints: 6
-  },
-  {
-    name: 'Wharfling Swarm',
-    size: 'Large',
-    alignment: 'unaligned',
-    type: 'swarm of Tiny beasts',
-    hitpoints: 63
-  },
-  {
     name: 'Whisperer in Darkness',
     size: 'Medium',
     alignment: 'neutral evil',
@@ -7187,34 +6473,6 @@ export const monsters = [
     alignment: 'chaotic evil',
     type: 'undead',
     hitpoints: 22
-  },
-  {
-    name: 'Wind Demon',
-    size: 'Small',
-    alignment: 'chaotic evil',
-    type: 'fiend',
-    hitpoints: 28
-  },
-  {
-    name: 'Wind Eater',
-    size: 'Medium',
-    alignment: 'lawful evil',
-    type: 'undead',
-    hitpoints: 65
-  },
-  {
-    name: 'Wind Weasel',
-    size: 'Medium',
-    alignment: 'chaotic neutral',
-    type: 'fey',
-    hitpoints: 52
-  },
-  {
-    name: "Wind's Harp",
-    size: 'Medium',
-    alignment: 'lawful evil',
-    type: 'fiend',
-    hitpoints: 63
   },
   {
     name: 'Winter Wolf',
@@ -7448,13 +6706,6 @@ export const monsters = [
     hitpoints: 119
   },
   {
-    name: 'Young Flame Dragon',
-    size: 'Large',
-    alignment: 'chaotic evil',
-    type: 'dragon',
-    hitpoints: 161
-  },
-  {
     name: 'Young Gold Dragon',
     size: 'Large',
     alignment: 'lawful good',
@@ -7511,32 +6762,11 @@ export const monsters = [
     hitpoints: 105
   },
   {
-    name: 'Young Void Dragon',
-    size: 'Large',
-    alignment: 'chaotic neutral',
-    type: 'dragon',
-    hitpoints: 157
-  },
-  {
-    name: 'Young Wasteland Dragon',
-    size: 'Large',
-    alignment: 'chaotic evil',
-    type: 'dragon',
-    hitpoints: 178
-  },
-  {
     name: 'Young White Dragon',
     size: 'Large',
     alignment: 'chaotic evil',
     type: 'dragon',
     hitpoints: 133
-  },
-  {
-    name: 'Young Wind Dragon',
-    size: 'Large',
-    alignment: 'chaotic neutral',
-    type: 'dragon',
-    hitpoints: 150
   },
   {
     name: 'Zanskaran Viper',
@@ -7565,20 +6795,6 @@ export const monsters = [
     alignment: 'neutral',
     type: 'aberration',
     hitpoints: 135
-  },
-  {
-    name: 'Zmey',
-    size: 'Huge',
-    alignment: 'chaotic evil',
-    type: 'dragon',
-    hitpoints: 189
-  },
-  {
-    name: 'Zmey Headling',
-    size: 'Medium',
-    alignment: 'chaotic evil',
-    type: 'dragon',
-    hitpoints: 105
   },
   {
     name: 'Zombie',

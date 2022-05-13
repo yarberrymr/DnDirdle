@@ -6,7 +6,7 @@ autocomplete.oninput = function () {
   let results = [];
   const userInput = this.value;
   resultsHTML.innerHTML = "";
-  if (userInput.length > 0) {
+  if (userInput.length > 2) {
     results = getResults(userInput);
     resultsHTML.style.display = "block";
     for (let i = 0; i < results.length; i++) {
@@ -17,11 +17,8 @@ autocomplete.oninput = function () {
 function getResults(input) {
   const results = [];
   for (let i = 0; i < monsters.length; i++) {
-    if (
-      monsters[i].name.toLowerCase().includes(input.toLowerCase()) || 
-      monsters[i].type.toLowerCase().includes(input.toLowerCase()) || 
-      monsters[i].size.toLowerCase().includes(input.toLowerCase()) || 
-      monsters[i].alignment.toLowerCase().includes(input.toLowerCase())
+    let stringifiedResult = `${monsters[i].name.toLowerCase()} ${monsters[i].type.toLowerCase()} ${monsters[i].size.toLowerCase()} ${monsters[i].alignment.toLowerCase()}`;
+    if (stringifiedResult.includes(input.toLowerCase())
     ) {
       results.push(
         `${monsters[i].name}: ${monsters[i].type}, ${monsters[i].hitpoints}hp, ${monsters[i].size}, ${monsters[i].alignment}`
@@ -97,7 +94,7 @@ function checkAlignment(guessMonster) {
     output = `<td>${guessMonster.alignment} is correct!</td>`;
   } else if (guessMonster.alignment !== newMonster.alignment) {
     output = `<td><s>${guessMonster.alignment}</s></td>`;
-  }
+  } 
   return output;
 }
 
